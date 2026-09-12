@@ -2,9 +2,9 @@
 
 
 function spinWords(str) {
-  str_array = str.split(" ");
+  let str_array = str.split(" ");
 
-  for (i = 0; i < str_array.length; i++) {
+  for (let i = 0; i < str_array.length; i++) {
     if (str_array[i].length < 5)
       continue;
 
