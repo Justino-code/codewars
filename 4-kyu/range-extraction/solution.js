@@ -1,7 +1,3 @@
-
-
-
-
 function rangeExtraction(arr) {
   let ranges = getRange(arr);
   let new_arr = [];
@@ -26,7 +22,7 @@ function getRange(arr) {
   for (let i = 1; i < arr.length; i++) {
     let e = (arr[i] - arr[i - 1]);
 
-    if (e != 1) {
+    if (e !== 1) {
       range.push(r_s);
       r_s = [];
     }
